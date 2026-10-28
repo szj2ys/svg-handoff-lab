@@ -1,0 +1,44 @@
+{
+  "01-path.svg": {
+    "path": 1,
+    "image": 0,
+    "text": 0,
+    "use": 0,
+    "basic_shape": 0
+  },
+  "02-basic-shapes.svg": {
+    "path": 0,
+    "image": 0,
+    "text": 0,
+    "use": 0,
+    "basic_shape": 2
+  },
+  "03-embedded-raster.svg": {
+    "path": 0,
+    "image": 1,
+    "text": 0,
+    "use": 0,
+    "basic_shape": 0
+  },
+  "04-mixed.svg": {
+    "path": 1,
+    "image": 1,
+    "text": 0,
+    "use": 0,
+    "basic_shape": 0
+  },
+  "05-live-text.svg": {
+    "path": 0,
+    "image": 0,
+    "text": 1,
+    "use": 0,
+    "basic_shape": 0
+  },
+  "06-local-use.svg": {
+    "path": 1,
+    "image": 0,
+    "text": 0,
+    "use": 1,
+    "basic_shape": 0
+  }
+}
