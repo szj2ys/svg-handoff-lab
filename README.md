@@ -25,6 +25,13 @@ Practical handoff checklist:
 
 An image element may reference a raster format or SVG. The absence of images does not prove a file contains only paths, and the presence of paths does not prove accuracy. See the [SVG 2 embedded-content specification](https://www.w3.org/TR/SVG2/embedded.html#ImageElement) and [pic2svg's inspection guide](https://pic2svg.com/how-to-check-if-svg-is-a-real-vector/).
 
+## Focused tutorials
+
+- [Why does my SVG import at the wrong size?](docs/svg-physical-size.md) separates page dimensions, viewBox coordinates and artwork extent. The [physical-size](examples/size-physical.svg) and [pixel-size](examples/size-pixels.svg) fixtures share the same rectangle and coordinates.
+- [Why can an SVG still contain an uneditable pixel image?](docs/svg-embedded-bitmap.md) distinguishes image objects from actual drawing shapes, with public examples and explicit inspection limits.
+
+These lessons were prepared with AI assistance on behalf of Pic2SVG. Their checker observations are dated 31 October 2026; no physical cutting or target-editor test is claimed. The two size fixtures are optional reading examples and are not added to the original six-case inspector or its expected results.
+
 ## Scope and reuse
 
 This is a six-case teaching lab, not an automatic preflight checker. The related [SVG Structure Inspector](https://github.com/szj2ys/svg-structure-inspector) is a separate, more extensive inspection utility. This lab has no dependency on that project or on Pic2SVG.
